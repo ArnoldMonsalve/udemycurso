@@ -1,0 +1,15 @@
+<h1 class="text-primary">{{title}}</h1>
+
+<h1 class="text-dark pt-5 text-center">{{tituloApp}}</h1>
+
+
+<!--contador basico en Angular-->
+<div class="text-center pt-5 container">
+    <h3 class="text-danger text-center m-5">La base es:<strong class="text-dark ">{{base}}</strong></h3>
+
+    <button type=" button " (click)="acumular(-base) " class="btn btn-dark p-3 ">- {{base}} </button>
+
+    <span class="m-3 ">{{numero}}</span>
+
+    <button type="button " (click)="acumular(base) " class="btn btn-dark p-3 ">+ {{base}}</button>
+</div>
